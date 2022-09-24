@@ -22,7 +22,7 @@ for (int i=0;i<fila_estudiante;i++){
 estudiante.pm_notas[i] = new int[columna_notas]; 	
 }
 cout<<"--------------Ingrese Notas--------------"<<endl;
-string nombre;
+
 for (int i=0;i<fila_estudiante;i++){
 	cout<<"Codigo: ";
 	cin>>estudiante.codigo[i];
